@@ -1,11 +1,7 @@
-###Enunciado del ejercicio:
-
-Partiendo del siguiente componente de clase que contempla varios métodos de ciclo de vida, convertidlo en un componente funcional que realice **exactamente lo mismo**:
-```jsx Codigo de react
 import React, { Component } from 'react'
-import '../../styles/clock.scss';
+// import '../../styles/clock.scss';
 
-class Clock extends Component {
+class ClockClassComponent extends Component {
    constructor(props) {
       super(props);
       // Estado privado del component
@@ -48,5 +44,4 @@ class Clock extends Component {
       });
    }
 }
-export default Clock;
-```
+export default ClockClassComponent;
